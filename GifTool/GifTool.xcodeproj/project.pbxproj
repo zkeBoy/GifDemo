@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D1AA4081F21932300C50656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1AA4071F21932300C50656 /* main.m */; };
+		2D1AA40B1F21932300C50656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1AA40A1F21932300C50656 /* AppDelegate.m */; };
+		2D1AA40E1F21932300C50656 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1AA40D1F21932300C50656 /* ViewController.m */; };
+		2D1AA4111F21932300C50656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1AA40F1F21932300C50656 /* Main.storyboard */; };
+		2D1AA4131F21932300C50656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1AA4121F21932300C50656 /* Assets.xcassets */; };
+		2D1AA4161F21932300C50656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1AA4141F21932300C50656 /* LaunchScreen.storyboard */; };
+		2D1AA41F1F21939E00C50656 /* ZKGifPlayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1AA41E1F21939E00C50656 /* ZKGifPlayTool.m */; };
+		2D1AA42A1F219AF500C50656 /* beer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2D1AA4221F219AF500C50656 /* beer.gif */; };
+		2D1AA42B1F219AF500C50656 /* big_big.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2D1AA4231F219AF500C50656 /* big_big.gif */; };
+		2D1AA42C1F219AF500C50656 /* car.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2D1AA4241F219AF500C50656 /* car.gif */; };
+		2D1AA42D1F219AF500C50656 /* jewel.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2D1AA4251F219AF500C50656 /* jewel.gif */; };
+		2D1AA42E1F219AF500C50656 /* kiss.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2D1AA4261F219AF500C50656 /* kiss.gif */; };
+		2D1AA42F1F219AF500C50656 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1AA4271F219AF500C50656 /* mail.png */; };
+		2D1AA4301F219AF500C50656 /* rose.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2D1AA4281F219AF500C50656 /* rose.gif */; };
+		2D1AA4311F219AF500C50656 /* 轮船-案例图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D1AA4291F219AF500C50656 /* 轮船-案例图.jpg */; };
+		2D1AA43C1F219F1D00C50656 /* ZKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1AA43A1F219F1D00C50656 /* ZKViewController.m */; };
+		2D1AA43D1F219F1D00C50656 /* ZKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D1AA43B1F219F1D00C50656 /* ZKViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D1AA4031F21932300C50656 /* GifTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1AA4071F21932300C50656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D1AA4091F21932300C50656 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D1AA40A1F21932300C50656 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D1AA40C1F21932300C50656 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D1AA40D1F21932300C50656 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D1AA4101F21932300C50656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D1AA4121F21932300C50656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D1AA4151F21932300C50656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D1AA4171F21932300C50656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1AA41D1F21939E00C50656 /* ZKGifPlayTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKGifPlayTool.h; sourceTree = "<group>"; };
+		2D1AA41E1F21939E00C50656 /* ZKGifPlayTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKGifPlayTool.m; sourceTree = "<group>"; };
+		2D1AA4221F219AF500C50656 /* beer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = beer.gif; sourceTree = "<group>"; };
+		2D1AA4231F219AF500C50656 /* big_big.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = big_big.gif; sourceTree = "<group>"; };
+		2D1AA4241F219AF500C50656 /* car.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = car.gif; sourceTree = "<group>"; };
+		2D1AA4251F219AF500C50656 /* jewel.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jewel.gif; sourceTree = "<group>"; };
+		2D1AA4261F219AF500C50656 /* kiss.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kiss.gif; sourceTree = "<group>"; };
+		2D1AA4271F219AF500C50656 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		2D1AA4281F219AF500C50656 /* rose.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rose.gif; sourceTree = "<group>"; };
+		2D1AA4291F219AF500C50656 /* 轮船-案例图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "轮船-案例图.jpg"; sourceTree = "<group>"; };
+		2D1AA4391F219F1D00C50656 /* ZKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKViewController.h; sourceTree = "<group>"; };
+		2D1AA43A1F219F1D00C50656 /* ZKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKViewController.m; sourceTree = "<group>"; };
+		2D1AA43B1F219F1D00C50656 /* ZKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D1AA4001F21932300C50656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D1AA3FA1F21932300C50656 = {
+			isa = PBXGroup;
+			children = (
+				2D1AA4051F21932300C50656 /* GifTool */,
+				2D1AA4041F21932300C50656 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D1AA4041F21932300C50656 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D1AA4031F21932300C50656 /* GifTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D1AA4051F21932300C50656 /* GifTool */ = {
+			isa = PBXGroup;
+			children = (
+				2D1AA4091F21932300C50656 /* AppDelegate.h */,
+				2D1AA40A1F21932300C50656 /* AppDelegate.m */,
+				2D1AA40C1F21932300C50656 /* ViewController.h */,
+				2D1AA40D1F21932300C50656 /* ViewController.m */,
+				2D1AA4391F219F1D00C50656 /* ZKViewController.h */,
+				2D1AA43A1F219F1D00C50656 /* ZKViewController.m */,
+				2D1AA43B1F219F1D00C50656 /* ZKViewController.xib */,
+				2D1AA41D1F21939E00C50656 /* ZKGifPlayTool.h */,
+				2D1AA41E1F21939E00C50656 /* ZKGifPlayTool.m */,
+				2D1AA4211F219AF500C50656 /* 平台礼物模板 */,
+				2D1AA40F1F21932300C50656 /* Main.storyboard */,
+				2D1AA4121F21932300C50656 /* Assets.xcassets */,
+				2D1AA4141F21932300C50656 /* LaunchScreen.storyboard */,
+				2D1AA4171F21932300C50656 /* Info.plist */,
+				2D1AA4061F21932300C50656 /* Supporting Files */,
+			);
+			path = GifTool;
+			sourceTree = "<group>";
+		};
+		2D1AA4061F21932300C50656 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D1AA4071F21932300C50656 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D1AA4211F219AF500C50656 /* 平台礼物模板 */ = {
+			isa = PBXGroup;
+			children = (
+				2D1AA4221F219AF500C50656 /* beer.gif */,
+				2D1AA4231F219AF500C50656 /* big_big.gif */,
+				2D1AA4241F219AF500C50656 /* car.gif */,
+				2D1AA4251F219AF500C50656 /* jewel.gif */,
+				2D1AA4261F219AF500C50656 /* kiss.gif */,
+				2D1AA4271F219AF500C50656 /* mail.png */,
+				2D1AA4281F219AF500C50656 /* rose.gif */,
+				2D1AA4291F219AF500C50656 /* 轮船-案例图.jpg */,
+			);
+			path = "平台礼物模板";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D1AA4021F21932300C50656 /* GifTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1AA41A1F21932300C50656 /* Build configuration list for PBXNativeTarget "GifTool" */;
+			buildPhases = (
+				2D1AA3FF1F21932300C50656 /* Sources */,
+				2D1AA4001F21932300C50656 /* Frameworks */,
+				2D1AA4011F21932300C50656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GifTool;
+			productName = GifTool;
+			productReference = 2D1AA4031F21932300C50656 /* GifTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D1AA3FB1F21932300C50656 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MliBo;
+				TargetAttributes = {
+					2D1AA4021F21932300C50656 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3XTS48CNKL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2D1AA3FE1F21932300C50656 /* Build configuration list for PBXProject "GifTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D1AA3FA1F21932300C50656;
+			productRefGroup = 2D1AA4041F21932300C50656 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D1AA4021F21932300C50656 /* GifTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D1AA4011F21932300C50656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1AA4161F21932300C50656 /* LaunchScreen.storyboard in Resources */,
+				2D1AA4131F21932300C50656 /* Assets.xcassets in Resources */,
+				2D1AA42F1F219AF500C50656 /* mail.png in Resources */,
+				2D1AA42D1F219AF500C50656 /* jewel.gif in Resources */,
+				2D1AA42A1F219AF500C50656 /* beer.gif in Resources */,
+				2D1AA43D1F219F1D00C50656 /* ZKViewController.xib in Resources */,
+				2D1AA42C1F219AF500C50656 /* car.gif in Resources */,
+				2D1AA42B1F219AF500C50656 /* big_big.gif in Resources */,
+				2D1AA4301F219AF500C50656 /* rose.gif in Resources */,
+				2D1AA4311F219AF500C50656 /* 轮船-案例图.jpg in Resources */,
+				2D1AA42E1F219AF500C50656 /* kiss.gif in Resources */,
+				2D1AA4111F21932300C50656 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D1AA3FF1F21932300C50656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1AA40E1F21932300C50656 /* ViewController.m in Sources */,
+				2D1AA41F1F21939E00C50656 /* ZKGifPlayTool.m in Sources */,
+				2D1AA40B1F21932300C50656 /* AppDelegate.m in Sources */,
+				2D1AA4081F21932300C50656 /* main.m in Sources */,
+				2D1AA43C1F219F1D00C50656 /* ZKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D1AA40F1F21932300C50656 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D1AA4101F21932300C50656 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D1AA4141F21932300C50656 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D1AA4151F21932300C50656 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D1AA4181F21932300C50656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D1AA4191F21932300C50656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D1AA41B1F21932300C50656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3XTS48CNKL;
+				INFOPLIST_FILE = GifTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zkeBoy.GifTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D1AA41C1F21932300C50656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3XTS48CNKL;
+				INFOPLIST_FILE = GifTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zkeBoy.GifTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D1AA3FE1F21932300C50656 /* Build configuration list for PBXProject "GifTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1AA4181F21932300C50656 /* Debug */,
+				2D1AA4191F21932300C50656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1AA41A1F21932300C50656 /* Build configuration list for PBXNativeTarget "GifTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D1AA41B1F21932300C50656 /* Debug */,
+				2D1AA41C1F21932300C50656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D1AA3FB1F21932300C50656 /* Project object */;
+}
