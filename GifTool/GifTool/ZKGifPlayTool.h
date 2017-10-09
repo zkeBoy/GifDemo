@@ -12,4 +12,13 @@
 
 - (void)addGifName:(NSString *)name toView:(UIView *)contentView;
 - (void)stopPlay;
+
+- (void)addAnimationName:(NSString *)name
+                  toView:(UIImageView *)contentView
+                   count:(NSUInteger)count;
+    
+- (void)addAnimationName:(NSString *)name
+                  toView:(UIImageView *)contentView
+                   count:(NSUInteger)count
+       withCompleteBlock:(void(^)(BOOL complete))Block;
 @end
