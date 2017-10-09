@@ -158,6 +158,10 @@
 		2D67B6FE1F29C9E800E592FD /* newcar_97.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D67B6781F29C9E800E592FD /* newcar_97.png */; };
 		2D67B6FF1F29C9E800E592FD /* newcar_98.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D67B6791F29C9E800E592FD /* newcar_98.png */; };
 		2D67B7001F29C9E800E592FD /* newcar_99.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D67B67A1F29C9E800E592FD /* newcar_99.png */; };
+		2D9469831F8B767700076109 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D94697F1F8B767700076109 /* libcrypto.a */; };
+		2D9469841F8B767700076109 /* libfdk-aac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9469801F8B767700076109 /* libfdk-aac.a */; };
+		2D9469851F8B767700076109 /* libPLMediaStreamingKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9469811F8B767700076109 /* libPLMediaStreamingKit.a */; };
+		2D9469861F8B767700076109 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9469821F8B767700076109 /* libssl.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -318,6 +322,38 @@
 		2D67B6781F29C9E800E592FD /* newcar_97.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newcar_97.png; sourceTree = "<group>"; };
 		2D67B6791F29C9E800E592FD /* newcar_98.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newcar_98.png; sourceTree = "<group>"; };
 		2D67B67A1F29C9E800E592FD /* newcar_99.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newcar_99.png; sourceTree = "<group>"; };
+		2D94695E1F8B767700076109 /* PLAudioCaptureConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLAudioCaptureConfiguration.h; sourceTree = "<group>"; };
+		2D94695F1F8B767700076109 /* PLAudioEffectConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLAudioEffectConfiguration.h; sourceTree = "<group>"; };
+		2D9469601F8B767700076109 /* PLAudioEffectCustomConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLAudioEffectCustomConfiguration.h; sourceTree = "<group>"; };
+		2D9469611F8B767700076109 /* PLAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLAudioPlayer.h; sourceTree = "<group>"; };
+		2D9469621F8B767700076109 /* PLAudioSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLAudioSession.h; sourceTree = "<group>"; };
+		2D9469631F8B767700076109 /* PLAudioStreamingConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLAudioStreamingConfiguration.h; sourceTree = "<group>"; };
+		2D9469641F8B767700076109 /* PLBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLBuffer.h; sourceTree = "<group>"; };
+		2D9469651F8B767700076109 /* PLCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCommon.h; sourceTree = "<group>"; };
+		2D9469661F8B767700076109 /* PLPixelBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLPixelBuffer.h; sourceTree = "<group>"; };
+		2D9469671F8B767700076109 /* PLPixelBufferProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLPixelBufferProcessor.h; sourceTree = "<group>"; };
+		2D9469681F8B767700076109 /* PLRGBtoI420Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLRGBtoI420Processor.h; sourceTree = "<group>"; };
+		2D9469691F8B767700076109 /* PLRTCConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLRTCConfiguration.h; sourceTree = "<group>"; };
+		2D94696A1F8B767700076109 /* PLStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLStream.h; sourceTree = "<group>"; };
+		2D94696B1F8B767700076109 /* PLStreamStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLStreamStatus.h; sourceTree = "<group>"; };
+		2D94696C1F8B767700076109 /* PLTypeDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLTypeDefines.h; sourceTree = "<group>"; };
+		2D94696D1F8B767700076109 /* PLVideoCaptureConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVideoCaptureConfiguration.h; sourceTree = "<group>"; };
+		2D94696E1F8B767700076109 /* PLVideoCompositionDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVideoCompositionDescription.h; sourceTree = "<group>"; };
+		2D94696F1F8B767700076109 /* PLVideoStreamingConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVideoStreamingConfiguration.h; sourceTree = "<group>"; };
+		2D9469711F8B767700076109 /* PLCameraStreamingKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCameraStreamingKit.h; sourceTree = "<group>"; };
+		2D9469721F8B767700076109 /* PLCameraStreamingSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCameraStreamingSession.h; sourceTree = "<group>"; };
+		2D9469741F8B767700076109 /* PLMediaStreamingKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLMediaStreamingKit.h; sourceTree = "<group>"; };
+		2D9469751F8B767700076109 /* PLMediaStreamingSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLMediaStreamingSession.h; sourceTree = "<group>"; };
+		2D9469771F8B767700076109 /* PLRTCSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLRTCSession.h; sourceTree = "<group>"; };
+		2D9469791F8B767700076109 /* PLRTCStreamingKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLRTCStreamingKit.h; sourceTree = "<group>"; };
+		2D94697A1F8B767700076109 /* PLRTCStreamingSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLRTCStreamingSession.h; sourceTree = "<group>"; };
+		2D94697C1F8B767700076109 /* PLStreamingEnv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLStreamingEnv.h; sourceTree = "<group>"; };
+		2D94697D1F8B767700076109 /* PLStreamingKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLStreamingKit.h; sourceTree = "<group>"; };
+		2D94697E1F8B767700076109 /* PLStreamingSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLStreamingSession.h; sourceTree = "<group>"; };
+		2D94697F1F8B767700076109 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		2D9469801F8B767700076109 /* libfdk-aac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libfdk-aac.a"; sourceTree = "<group>"; };
+		2D9469811F8B767700076109 /* libPLMediaStreamingKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPLMediaStreamingKit.a; sourceTree = "<group>"; };
+		2D9469821F8B767700076109 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,6 +361,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D9469861F8B767700076109 /* libssl.a in Frameworks */,
+				2D9469831F8B767700076109 /* libcrypto.a in Frameworks */,
+				2D9469851F8B767700076109 /* libPLMediaStreamingKit.a in Frameworks */,
+				2D9469841F8B767700076109 /* libfdk-aac.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +374,7 @@
 		2D1AA3FA1F21932300C50656 = {
 			isa = PBXGroup;
 			children = (
+				2D94695B1F8B767700076109 /* PLMediaStreamingKit */,
 				2D67B5F41F29C9E800E592FD /* 跑车 */,
 				2D1AA4051F21932300C50656 /* GifTool */,
 				2D1AA4041F21932300C50656 /* Products */,
@@ -532,6 +573,101 @@
 				2D67B61C1F29C9E800E592FD /* newcar_133.png */,
 			);
 			path = "跑车";
+			sourceTree = "<group>";
+		};
+		2D94695B1F8B767700076109 /* PLMediaStreamingKit */ = {
+			isa = PBXGroup;
+			children = (
+				2D94695C1F8B767700076109 /* include */,
+				2D94697F1F8B767700076109 /* libcrypto.a */,
+				2D9469801F8B767700076109 /* libfdk-aac.a */,
+				2D9469811F8B767700076109 /* libPLMediaStreamingKit.a */,
+				2D9469821F8B767700076109 /* libssl.a */,
+			);
+			path = PLMediaStreamingKit;
+			sourceTree = "<group>";
+		};
+		2D94695C1F8B767700076109 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2D94695D1F8B767700076109 /* Common */,
+				2D9469701F8B767700076109 /* PLCameraStreamingKit */,
+				2D9469731F8B767700076109 /* PLMediaStreamingKit */,
+				2D9469761F8B767700076109 /* PLRTCKit */,
+				2D9469781F8B767700076109 /* PLRTCStreamingKit */,
+				2D94697B1F8B767700076109 /* PLStreamingKit */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		2D94695D1F8B767700076109 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2D94695E1F8B767700076109 /* PLAudioCaptureConfiguration.h */,
+				2D94695F1F8B767700076109 /* PLAudioEffectConfiguration.h */,
+				2D9469601F8B767700076109 /* PLAudioEffectCustomConfiguration.h */,
+				2D9469611F8B767700076109 /* PLAudioPlayer.h */,
+				2D9469621F8B767700076109 /* PLAudioSession.h */,
+				2D9469631F8B767700076109 /* PLAudioStreamingConfiguration.h */,
+				2D9469641F8B767700076109 /* PLBuffer.h */,
+				2D9469651F8B767700076109 /* PLCommon.h */,
+				2D9469661F8B767700076109 /* PLPixelBuffer.h */,
+				2D9469671F8B767700076109 /* PLPixelBufferProcessor.h */,
+				2D9469681F8B767700076109 /* PLRGBtoI420Processor.h */,
+				2D9469691F8B767700076109 /* PLRTCConfiguration.h */,
+				2D94696A1F8B767700076109 /* PLStream.h */,
+				2D94696B1F8B767700076109 /* PLStreamStatus.h */,
+				2D94696C1F8B767700076109 /* PLTypeDefines.h */,
+				2D94696D1F8B767700076109 /* PLVideoCaptureConfiguration.h */,
+				2D94696E1F8B767700076109 /* PLVideoCompositionDescription.h */,
+				2D94696F1F8B767700076109 /* PLVideoStreamingConfiguration.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2D9469701F8B767700076109 /* PLCameraStreamingKit */ = {
+			isa = PBXGroup;
+			children = (
+				2D9469711F8B767700076109 /* PLCameraStreamingKit.h */,
+				2D9469721F8B767700076109 /* PLCameraStreamingSession.h */,
+			);
+			path = PLCameraStreamingKit;
+			sourceTree = "<group>";
+		};
+		2D9469731F8B767700076109 /* PLMediaStreamingKit */ = {
+			isa = PBXGroup;
+			children = (
+				2D9469741F8B767700076109 /* PLMediaStreamingKit.h */,
+				2D9469751F8B767700076109 /* PLMediaStreamingSession.h */,
+			);
+			path = PLMediaStreamingKit;
+			sourceTree = "<group>";
+		};
+		2D9469761F8B767700076109 /* PLRTCKit */ = {
+			isa = PBXGroup;
+			children = (
+				2D9469771F8B767700076109 /* PLRTCSession.h */,
+			);
+			path = PLRTCKit;
+			sourceTree = "<group>";
+		};
+		2D9469781F8B767700076109 /* PLRTCStreamingKit */ = {
+			isa = PBXGroup;
+			children = (
+				2D9469791F8B767700076109 /* PLRTCStreamingKit.h */,
+				2D94697A1F8B767700076109 /* PLRTCStreamingSession.h */,
+			);
+			path = PLRTCStreamingKit;
+			sourceTree = "<group>";
+		};
+		2D94697B1F8B767700076109 /* PLStreamingKit */ = {
+			isa = PBXGroup;
+			children = (
+				2D94697C1F8B767700076109 /* PLStreamingEnv.h */,
+				2D94697D1F8B767700076109 /* PLStreamingKit.h */,
+				2D94697E1F8B767700076109 /* PLStreamingSession.h */,
+			);
+			path = PLStreamingKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -878,6 +1014,10 @@
 				DEVELOPMENT_TEAM = 3XTS48CNKL;
 				INFOPLIST_FILE = GifTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PLMediaStreamingKit",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = zkeBoy.GifTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -890,6 +1030,10 @@
 				DEVELOPMENT_TEAM = 3XTS48CNKL;
 				INFOPLIST_FILE = GifTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PLMediaStreamingKit",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = zkeBoy.GifTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
